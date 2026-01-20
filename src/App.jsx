@@ -3,10 +3,12 @@ import Welcome from "./components/Welcome"
 import "./App.css"
 import Menubar from "./components/Menubar"
 import Teammember from "./components/Teammember"
+import Services from "./components/Services"
 export default function App() {
   return (
       <>
       <Menubar></Menubar>
+      <Services></Services>
       <div className="team-members">
       <Teammember mname="John" mimg="https://static.vecteezy.com/system/resources/thumbnails/004/607/791/small_2x/man-face-emotive-icon-smiling-male-character-in-blue-shirt-flat-illustration-isolated-on-white-happy-human-psychological-portrait-positive-emotions-user-avatar-for-app-web-design-vector.jpg"
        designation="Software Developer"></Teammember>

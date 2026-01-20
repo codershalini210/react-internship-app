@@ -22,14 +22,24 @@ body
     text-decoration: none;
     font-size: 20px;;
 }
-.team-members
+.team-members,.services
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap:100px;
     margin-top: 25px;
 }
-.team-member
+.service>p,.service>h2
+{
+    margin:0;
+    text-align: center;
+}
+.service>hr
+{
+    width:100%;
+}
+.team-member,.service
 {
     width:20%;
     display: flex;
