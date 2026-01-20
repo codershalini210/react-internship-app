@@ -1,0 +1,52 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.menu-bar
+{
+    margin: 0;
+    padding: 0;
+    height:75px;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    align-items: center;
+    gap:20px;
+    padding-right: 20px;
+    background-color: black;
+}
+.menu-bar>li>a
+{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;;
+}
+.team-members
+{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    margin-top: 25px;
+}
+.team-member
+{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px gray;
+    gap:10px;
+    padding:10px 0px 10px 0px;
+}
+.team-member>img{
+    width:80%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.team-member>h2
+{
+    margin: 0;
+    padding: 0;
+}
