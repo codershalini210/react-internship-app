@@ -1,12 +1,14 @@
 
+import { Link } from "react-router-dom"
 export default function Menubar() {
   return (
     <>
+    
  <ul className="menu-bar">
-    <li> <a href="#">Home</a></li>
-    <li> <a href="#">About</a></li>
-    <li> <a href="#">Gallery</a></li>
-    <li> <a href="#">Contact</a></li>
+    <li><Link to="/">Home</Link> </li>
+    <li> <Link to="/services">Services</Link></li>
+    <li> <Link to="/team">Team</Link></li>
+    <li> <Link to="/contact">Contact</Link></li>
  </ul>
     </>
   )

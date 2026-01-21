@@ -1,0 +1,6 @@
+ 1 -> install react router dom by command :
+ npm i react-router-dom
+ 2. Go to main.jsx 
+ and add Browser Router
+ 3. Go to app.jsx and import routes and route and set them
+ 4. change a tag by Link in MEnu bar 
