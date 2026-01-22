@@ -60,3 +60,140 @@ body
     margin: 0;
     padding: 0;
 }
+.flex
+{
+    display: flex;
+    margin-top: 25px;;
+}
+.content
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    text-align: center;
+}
+.content>h2,.content>h4,.content>h3
+{
+    margin:0;
+}
+.content>h2
+{
+    color:rgb(15, 145, 210);
+    font-size:40px;
+    text-shadow: 0px 0px 2px navy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content>h2:hover
+{
+    font-size: 50px;
+    text-shadow: 0px 0px 8px rgb(251, 167, 11);
+    transition: 500ms all;
+}
+.sideimg
+{
+    width:50%;
+}
+.sideimg>img
+{
+    width:100%;
+    aspect-ratio: 2/1.5;
+    border-radius: 5px;;
+}
+.sideimg>img:hover{
+    transform: scale(0.95);
+    transition: 500ms all;
+}
+.header-bg
+{
+    height:80dvh;
+    width:100%;
+    background-image: url('./assets/bg.jfif');
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    
+
+}
+/* Form wrapper */
+.contact-form {
+    width:100%;
+  /* max-width: 420px; */
+  margin: auto;
+  padding: 10px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Form group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+
+/* Labels */
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+/* Inputs & textarea */
+.form-group input,
+.form-group textarea {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #7c3aed;
+}
+
+/* Buttons container */
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Common button */
+.form-actions button {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease;
+}
+
+/* Submit button */
+.form-actions button[type="submit"] {
+  background: linear-gradient(135deg, #7c3aed, #ec4899);
+  color: #fff;
+}
+
+.form-actions button[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+/* Cancel button */
+.form-actions button[type="reset"] {
+  background: #f3f4f6;
+  color: #333;
+}
+
+.form-actions button[type="reset"]:hover {
+  background: #e5e7eb;
+}
