@@ -9,11 +9,15 @@ import Home from "./components/Home"
 import TeamMembers from "./components/TeamMembers"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+import EventHandling from "./components/EventHandling"
+import StateEg1 from "./components/StateEg1"
 export default function App() {
   return (
       <> 
       <Menubar></Menubar>
       <Routes>
+        <Route path="StateEg1" element={<StateEg1></StateEg1>}>State eg1</Route>
+        <Route path="/EventHandling" element={<EventHandling></EventHandling>}></Route>
     <Route path="/" element={<Home></Home>}></Route>
     <Route path="/services" element={<Services></Services>}></Route>
     <Route path="/team" element={<TeamMembers></TeamMembers>}></Route>
