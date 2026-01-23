@@ -13,10 +13,15 @@ export default function StateEg1() {
         seti(i-1)
         console.log(i)
     }
+    let cartbtn = <input type="button" value="Add to cart" onClick={()=>seti(1)} />
+    let qtybtn = <div><input type="button" value="-" disabled={i<1?true:false} onClick={()=>decrement()} /> {i}
+       <input type="button" value="+" disabled={i<5?false:true} onClick={()=>increment()}/>
+        </div>
   return (
     <div>
-       <input type="button" value="-" onClick={()=>decrement()} /> {i}
-       <input type="button" value="+" onClick={()=>increment()}/>
+{i==0?cartbtn:qtybtn}
+       
+      
         
     </div>
   )
