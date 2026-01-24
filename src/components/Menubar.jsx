@@ -11,6 +11,7 @@ export default function Menubar() {
     <li> <Link to="/contact">Contact</Link></li>
     <li><Link to="/EventHandling">Event EG</Link></li>
     <li> <Link to="/stateeg1">State eg1</Link></li>
+    <li> <Link to="/calc">Calculator</Link></li>
  </ul>
     </>
   )

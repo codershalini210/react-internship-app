@@ -11,6 +11,7 @@ import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import EventHandling from "./components/EventHandling"
 import StateEg1 from "./components/StateEg1"
+import Calculator from "./components/Calculator"
 export default function App() {
   return (
       <> 
@@ -22,6 +23,7 @@ export default function App() {
     <Route path="/services" element={<Services></Services>}></Route>
     <Route path="/team" element={<TeamMembers></TeamMembers>}></Route>
     <Route path="/contact" element={<Contact></Contact>}></Route>
+    <Route path="/calc" element={<Calculator></Calculator>}></Route>
       </Routes>
       <Footer></Footer>
   </>
